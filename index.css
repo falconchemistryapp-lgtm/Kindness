@@ -1,0 +1,240 @@
+/* In a real Vite/Create-React-App setup, you'd have @tailwind directives here */
+/* For the CDN version, we can add custom global styles or overrides */
+:root {
+  /* Default to pitch-black, but will be overridden by JS state */
+  --bg-primary: rgb(0 0 0);
+  --bg-secondary: rgb(17 17 17);
+  --bg-secondary-alpha: rgba(17, 17, 17, 0.2);
+  --bg-secondary-sidebar: rgba(17, 17, 17, 0.95);
+  --bg-tertiary: rgb(38 38 38);
+  --bg-quaternary: rgb(55 65 81);
+  --bg-accent: rgb(59 130 246);
+  --bg-accent-hover: rgb(96 165 250);
+  --bg-accent-subtle: rgba(59, 130, 246, 0.2);
+  --bg-success: rgba(34, 197, 94, 0.2);
+  --bg-danger: rgba(239, 68, 68, 0.2);
+  --bg-info: rgb(251 191 36);
+
+  --text-primary: rgb(243 244 246);
+  --text-secondary: rgb(156 163 175);
+  --text-muted: rgb(107 114 128);
+  --text-accent: rgb(96 165 250);
+  --text-accent-alt: rgb(96 165 250);
+  --text-on-accent: #fff;
+  --text-success: rgb(74 222 128);
+  --text-danger: rgb(248 113 113);
+  --text-info: rgb(252 211 77);
+  --text-info-strong: rgb(251 191 36);
+
+  --border-primary: rgb(38 38 38);
+  --border-accent: rgb(59 130 246);
+  --border-success: rgb(34 197 94);
+  --border-danger: rgb(239 68 68);
+
+  --ring-accent: rgb(96 165 250);
+}
+
+[data-theme='dark-blue'] {
+  --bg-primary: rgb(15 23 42);
+  --bg-secondary: rgb(30 41 59);
+  --bg-secondary-alpha: rgba(30, 41, 59, 0.2);
+  --bg-secondary-sidebar: rgba(30, 41, 59, 0.95);
+  --bg-tertiary: rgb(51 65 85);
+  --bg-quaternary: rgb(71 85 105);
+  --bg-accent: rgb(2 132 199);
+  --bg-accent-hover: rgb(14 165 233);
+  --bg-accent-subtle: rgba(14, 116, 144, 0.31);
+  --bg-success: rgba(22, 163, 74, 0.2);
+  --bg-danger: rgba(220, 38, 38, 0.2);
+  --bg-info: rgb(251 191 36);
+  --text-primary: rgb(226 232 240);
+  --text-secondary: rgb(148 163 184);
+  --text-muted: rgb(100 116 139);
+  --text-accent: rgb(56 189 248);
+  --text-accent-alt: rgb(125 211 252);
+  --text-on-accent: #fff;
+  --text-success: rgb(134 239 172);
+  --text-danger: rgb(252 165 165);
+  --text-info: rgb(252 211 77);
+  --text-info-strong: rgb(251 191 36);
+  --border-primary: rgb(51 65 85);
+  --border-accent: rgb(14 116 144);
+  --border-success: rgb(22 163 74);
+  --border-danger: rgb(185 28 28);
+  --ring-accent: rgb(56 189 248);
+}
+
+[data-theme='pitch-black'] {
+  --bg-primary: rgb(0 0 0);
+  --bg-secondary: rgb(17 17 17);
+  --bg-secondary-alpha: rgba(17, 17, 17, 0.2);
+  --bg-secondary-sidebar: rgba(17, 17, 17, 0.95);
+  --bg-tertiary: rgb(38 38 38);
+  --bg-quaternary: rgb(55 65 81);
+  --bg-accent: rgb(59 130 246);
+  --bg-accent-hover: rgb(96 165 250);
+  --bg-accent-subtle: rgba(59, 130, 246, 0.2);
+  --bg-success: rgba(34, 197, 94, 0.2);
+  --bg-danger: rgba(239, 68, 68, 0.2);
+  --bg-info: rgb(251 191 36);
+  --text-primary: rgb(243 244 246);
+  --text-secondary: rgb(156 163 175);
+  --text-muted: rgb(107 114 128);
+  --text-accent: rgb(96 165 250);
+  --text-accent-alt: rgb(96 165 250);
+  --text-on-accent: #fff;
+  --text-success: rgb(74 222 128);
+  --text-danger: rgb(248 113 113);
+  --text-info: rgb(252 211 77);
+  --text-info-strong: rgb(251 191 36);
+  --border-primary: rgb(38 38 38);
+  --border-accent: rgb(59 130 246);
+  --border-success: rgb(34 197 94);
+  --border-danger: rgb(239 68 68);
+  --ring-accent: rgb(96 165 250);
+}
+
+[data-theme='light'] {
+  --bg-primary: rgb(243 244 246);
+  --bg-secondary: rgb(255 255 255);
+  --bg-secondary-alpha: rgba(255, 255, 255, 0.2);
+  --bg-secondary-sidebar: rgba(255, 255, 255, 0.95);
+  --bg-tertiary: rgb(229 231 235);
+  --bg-quaternary: rgb(209 213 219);
+  --bg-accent: rgb(37 99 235);
+  --bg-accent-hover: rgb(59 130 246);
+  --bg-accent-subtle: rgba(59, 130, 246, 0.1);
+  --bg-success: rgba(34, 197, 94, 0.1);
+  --bg-danger: rgba(239, 68, 68, 0.1);
+  --bg-info: rgb(251 191 36);
+  --text-primary: rgb(17 24 39);
+  --text-secondary: rgb(55 65 81);
+  --text-muted: rgb(107 114 128);
+  --text-accent: rgb(29 78 216);
+  --text-accent-alt: rgb(37 99 235);
+  --text-on-accent: #fff;
+  --text-success: rgb(21 128 61);
+  --text-danger: rgb(185 28 28);
+  --text-info: rgb(217 119 6);
+  --text-info-strong: rgb(180 83 9);
+  --border-primary: rgb(209 213 219);
+  --border-accent: rgb(59 130 246);
+  --border-success: rgb(74 222 128);
+  --border-danger: rgb(248 113 113);
+  --ring-accent: rgb(59 130 246);
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+/* Hide scrollbars everywhere, but keep functionality */
+/* For Chrome, Safari, Opera */
+::-webkit-scrollbar {
+    display: none;
+}
+/* For IE, Edge, Firefox */
+html {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+
+/* Specific overrides for prose */
+.prose strong { color: var(--text-accent-alt); }
+
+[data-theme='light'] .prose pre { background-color: var(--bg-primary); border: 1px solid var(--border-primary); }
+[data-theme='dark-blue'] .prose pre { background-color: var(--bg-primary); }
+[data-theme='pitch-black'] .prose pre { background-color: rgb(20,20,20); }
+
+/* --- INTRO ANIMATIONS --- */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes draw-slash {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.5s ease-out forwards;
+  opacity: 0; /* Start hidden */
+}
+
+.animate-draw-slash {
+  animation: draw-slash 0.5s ease-out forwards;
+  transform-origin: center;
+  transform: scaleX(0); /* Start hidden */
+}
+
+.animate-fade-in {
+    animation: fade-in 0.5s ease-in forwards;
+}
+
+/* --- TOOLTIP STYLES --- */
+.tooltip-container {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 8px; /* Space between question text and icon */
+    flex-shrink: 0; /* Prevent the icon from shrinking */
+}
+
+.tooltip-text {
+    visibility: hidden;
+    width: 160px;
+    background-color: var(--bg-tertiary);
+    color: var(--text-primary);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 10;
+    bottom: 125%; /* Position above the icon */
+    left: 50%;
+    margin-left: -80px; /* Use half of the width to center */
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 0.75rem;
+    line-height: 1.25;
+}
+
+.tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Tooltip Arrow */
+.tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--bg-tertiary) transparent transparent transparent;
+}
